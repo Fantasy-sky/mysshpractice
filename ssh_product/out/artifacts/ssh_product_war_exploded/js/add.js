@@ -34,7 +34,7 @@ $.fn.extend({
 function addorder() {
     var json = $("#formorder").serialize();
 
-    // 表单丽添加一个隐藏域
+    // 表单添加一个隐藏域
     //json['publicationDate'] = "25";
     var url = "product_add";
     $.post(url, json, function (data) {

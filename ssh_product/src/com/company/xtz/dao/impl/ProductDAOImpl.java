@@ -20,7 +20,7 @@ public class ProductDAOImpl implements IProductDAO {
 
         // 添加保存一条订单记录
         session.save(order);
-
+       // int i = 0/0;
         // 提交事务
         session.getTransaction().commit();
 
